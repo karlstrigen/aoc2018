@@ -7,7 +7,6 @@ public class second {
 	
 	public static void main(String args[]) {
 		int currentValue = 0;
-		int iterations = 0;
 		while (!found) {
 			currentValue = findFreq(args, currentValue);
 		}
